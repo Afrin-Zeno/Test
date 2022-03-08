@@ -17,7 +17,7 @@ def callback():
     if txt1==txt2:
         messagebox.showerror("Error","Username and Password can't be same")
     elif(txt1=={} and txt2==""8):
-        messagebox.showinfo("Aiyoo","kapathunga")
+        messagebox.showinfo("no","noo")
     else:
          messagebox.showinfo("Valid","Successfully Submitted")
 b=Button(window,text="Submit",bg="green",font=("ariel",12),command=callback)
